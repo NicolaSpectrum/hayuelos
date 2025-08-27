@@ -1,4 +1,4 @@
-# hayuelos
+# Directorio Comercial de Hayuelos
 El proyecto consiste en la creación de un directorio comercial exclusivo para los residentes del conjunto residencial Balcones de los Hayuelos, ubicado en Neiva, Huila. Este directorio será un espacio digital donde se centralice la información de todos los negocios, emprendimientos y servicios que ofrecen los miembros de la comunidad, con el fin de impulsar el comercio local y fortalecer el apoyo colaborativo entre vecinos.
 
 ## Objetivos del proyecto:
