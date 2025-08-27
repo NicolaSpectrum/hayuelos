@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercios del Barrio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./img/logo.jpeg" alt="Logo del barrio" class="logo">
+            <h1>Directorio Comercial</h1>
+        </div>
+    </header>
+
+
+    <!-- Banner Publicitario -->
+    <!--
+    <div class="banner">
+        <img src="./img/banners/banner-1.jpeg" class="active" alt="Publicidad 1">
+        <img src="https://via.placeholder.com/1200x400/33c1ff/ffffff?text=Publicidad+2" alt="Publicidad 2">
+        <img src="https://via.placeholder.com/1200x400/75ff33/ffffff?text=Publicidad+3" alt="Publicidad 3">
+    </div>
+    -->
+    <!-- Lista Comercios -->
+    <section class="comercios">
+        <div class="comercio">
+            <div class="comercio-header" onclick="toggleDetails(this)">
+                <img src="./img/stores/amazon-teleco.jpeg" alt="Comercio 1" class="logo">
+                <div class="info">
+                    <h3>Internet Fibra Óptica</h3>
+                    <a href="https://wa.me/573225596408" class="btn-whatsapp" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            <div class="comercio-detalle">
+                <p>Ofrecemos servicio de internet fribra óptica con planes desde $65.000</p>
+                <p>Sin incrementos sorpresas en la factura y soporte 24/7 </p>
+                <p>Tel: 3225596408</p>
+                <p>Horario: 7am - 7pm</p>
+            </div>
+        </div>
+
+        <div class="comercio">
+            <div class="comercio-header" onclick="toggleDetails(this)">
+                <img src="./img/stores/logo.jpeg" alt="Comercio 2" class="logo">
+                <div class="info">
+                    <h3>Tienda de Flor</h3>
+                    <a href="https://wa.me/573122258167" class="btn-whatsapp" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            <div class="comercio-detalle">
+                <p>Desde Alimentos básicos y bebidas hasta productos de aseo y antojos</p>
+                <p>Tel: 3122258167</p>
+            </div>
+        </div>
+
+        <div class="comercio">
+            <div class="comercio-header" onclick="toggleDetails(this)">
+                <img src="./img/stores/logo.jpeg" alt="Comercio 2" class="logo">
+                <div class="info">
+                    <h3>Droguería Azusa</h3>
+                    <a href="https://wa.me/573132256594" class="btn-whatsapp" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            <div class="comercio-detalle">
+                <p>Medicamentos, productos de cuidado personal.</p>
+                <p>Tel: 3132256594</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
